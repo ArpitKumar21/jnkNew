@@ -28,7 +28,6 @@
 </head>
 
 <body>
-
     <!-- ***** Preloader Start ***** -->
     <div id="preloader">
         <div class="jumper">
@@ -55,21 +54,8 @@
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
                             <li class="scroll-to-section"><a href="#about">About</a></li>
-
-                            <!-- 
-                            <li class="submenu">
-                                <a href="javascript:;">Drop Down</a>
-                                <ul>
-                                    <li><a href="#">Drop Down Page 1</a></li>
-                                    <li><a href="#">Drop Down Page 2</a></li>
-                                    <li><a href="#">Drop Down Page 3</a></li>
-                                </ul>
-                            </li>
-                        -->
                             <li class="scroll-to-section"><a href="#menu">Menu</a></li>
                             <li class="scroll-to-section"><a href="#executives">Executives</a></li>
-
-                            <!-- <li class=""><a rel="sponsored" href="https://templatemo.com" target="_blank">External URL</a></li> -->
                             <li class="scroll-to-section"><a href="#reservation">Contact Us</a></li>
                         </ul>
                         <a class='menu-trigger'>
@@ -91,9 +77,10 @@
                     <div class="left-content">
                         <div class="inner-content">
                             <h4>J&K Enterprises</h4>
+                            <br>
                             <h6 class="promise">We Provide <span>Best</span> Quality <span>Paver Blocks</span></h6>
                             <div class="main-white-button scroll-to-section">
-                                <a href="#reservation">Ask for queries</a>
+                                <a href="#reservation" class="askQuery">Ask for queries</a>
                                 <a href="https://api.whatsapp.com/send?phone=917368990995&text=नमस्ते! मैं आपके उत्पादों के बारे में अधिक जानने को इच्छुक हूँ।"
                                     target="_blank" id="whatsApp"><svg xmlns="http://www.w3.org/2000/svg" width="16"
                                         height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -116,8 +103,8 @@
                         <div class="Modern-Slider">
                             <!-- Item -->
                             <div class="item">
-                                <div class="img-fill">
-                                    <img src="assets/images/001.jpeg" alt="">
+                                <div class="img-fluid">
+                                    <img class="img-fluid" src="assets/images/bannerBoard.jpeg" alt="">
                                 </div>
                             </div>
                             <!-- // Item -->
@@ -153,16 +140,26 @@
                             <h6>About Us</h6>
                             <h2>J&K Enterprises</h2>
                         </div>
-                        <p>
-                            We <a href="https://templatemo.com/tag/restaurant" target="_blank" rel="sponsored">J&K
+                        <p class="scroll-to-section">
+                            We <a href="#top" class="active" rel="sponsored">J&K
                                 Enterprises</a> are committed to serve you with best quality Paver blocks and Bricks. We
                             have earned satisfied costumer with our best quality service. We have provided our blocks in
                             the build of :-
                         <ol class="completed-projects">
-                            <li>K.R. school main road pathways.</li>
-                            <li>Madanpur Valmiki nagar tiger reserve forest road.</li>
-                            <li>Suresh nagar , near malwapur bettiah.</li>
+                            <div class="row">
+                                <div class="col-1"><li></li></div>
+                                <div class="col-11">K.R. school main road pathways.</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1"><li></li></div>
+                                <div class="col-11">Madanpur Valmiki nagar tiger reserve forest road.</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1"><li></li></div>
+                                <div class="col-11">Suresh nagar , near Manuapul Bettiah.</div>
+                            </div>
                         </ol>
+                        <br>
                         And many more. We at J&K are serving best quality products since April, 2021.
                         </p>
                         <div class="row">
@@ -369,6 +366,12 @@
                 </div>
             </div>
         </div>
+        <a href="https://api.whatsapp.com/send?phone=917368990995&text=नमस्ते! मैं आपके उत्पादों के बारे में अधिक जानने को इच्छुक हूँ।"
+            class="float-1" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
+        <a href="tel:7368990995" class="float-2">
+            <i class="fa fa-phone my-float"></i></a>
     </section>
     <!-- ***** Contact Us Area Ends ***** -->
     <!-- ***** Footer Start ***** -->
@@ -397,10 +400,11 @@
             </div>
             <p class="text-center mt-5">This website has been developed by </p>
             <p class="text-center mt-0">
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/murlidhar-pathak-4b70aa146/" role="button"><i
-                    class="fa fa-linkedin"></i></a>
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/arpitkumarjha/" role="button"><i
+                <a class="btn btn-outline-light btn-floating m-1"
+                    href="https://www.linkedin.com/in/murlidhar-pathak-4b70aa146/" role="button"><i
                         class="fa fa-linkedin"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/arpitkumarjha/"
+                    role="button"><i class="fa fa-linkedin"></i></a>
             </p>
         </div>
     </footer>
